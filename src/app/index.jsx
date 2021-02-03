@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
 import { Wrapper, Table, Head, Body, Row, Cell } from './styles';
-import { loadJSON, makeTree, getRemark } from './utils';
+import { makeTree, getRemark } from './utils';
+import * as data from '../data/orgstructure.json';
 
 export default class App extends Component {
   constructor(props) {
@@ -10,7 +11,7 @@ export default class App extends Component {
   }
 
   componentDidMount = () => {
-    loadJSON('orgstructure.json', this.setData);
+    this.setData(data.default);
   }
 
   setData = (data) => {
@@ -18,10 +19,10 @@ export default class App extends Component {
   }
 
   renderStructure = (data, significant = 1) => {
-    return data.map(({ type, name, children }) => {
+    return data.map(({ type, name, children }, i) => {
       if (type) {
         return (
-          <React.Fragment>
+          <React.Fragment key={type + i}>
             <Row significant={significant}>
               <Cell>{type}</Cell>
               <Cell>{name} {getRemark(children, significant)}</Cell>

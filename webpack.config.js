@@ -29,8 +29,8 @@ module.exports = {
         }),
         new CopyWebpackPlugin([
             {
-                from: "./src/data",
-                to: "./data"
+                from: "src/data",
+                to: "data"
             }
         ])
     ],

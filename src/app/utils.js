@@ -1,18 +1,3 @@
-export function loadJSON(name, callback) {
-    let xhr = new XMLHttpRequest();
-    xhr.onload = reqListener;
-    xhr.open("get", `./data/${name}`, true);
-    xhr.send();
-
-    function reqListener(e) {
-        if (this.status === 200) {
-            callback(JSON.parse(this.responseText));
-        } else if (this.status === 404) {
-            console.log("Ошибка! Данные не найдены.");
-        }
-    }
-}
-
 export function getRemark(children, significant) {
     if (significant < 3) {
         const { length } = children;
@@ -24,7 +9,7 @@ export function getRemark(children, significant) {
 }
 
 export function makeTree(data) {
-    const structure = data.map(({ id, type, name, children }) => {
+    return data.map(({ id, type, name, children }) => {
 
         if (children.length > 0) {
             children = replaceChildren(data, children);
@@ -32,8 +17,6 @@ export function makeTree(data) {
 
         return { id, type, name, children };
     }).filter(({ type }) => type === data[0].type);
-
-    return structure;
 }
 
 function replaceChildren(data, children) {

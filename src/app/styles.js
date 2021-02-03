@@ -10,13 +10,9 @@ export const Table = styled.table`
   width 600px;
 `;
 
-export const Head = styled.thead`
+export const Head = styled.thead``;
 
-`;
-
-export const Body = styled.tbody`
-
-`;
+export const Body = styled.tbody``;
 
 export const Row = styled.tr`
   background-color: ${({ significant }) => {
@@ -30,7 +26,7 @@ export const Row = styled.tr`
 `;
 
 export const Cell = styled.td`
-  border: 1px solid black;
   width: ${({ width }) => width + 'px'};
+  border: 1px solid black;
 `;
 
