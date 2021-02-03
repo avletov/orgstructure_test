@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "type": "ntc",
+    "name": "НТЦ 1",
+    "children": [2, 3]
+  },
+  {
+    "id": 2,
+    "type": "management",
+    "name": "Управление 1",
+    "children": [7, 5, 4, 9]
+  },
+  {
+    "id": 7,
+    "type": "department",
+    "name": "Отдел 3",
+    "children": []
+  },
+  {
+    "id": 3,
+    "type": "management",
+    "name": "Управление 4",
+    "children": [11]
+  },
+  {
+    "id": 5,
+    "type": "department",
+    "name": "Отдел 1",
+    "children": []
+  },
+  {
+    "id": 4,
+    "type": "department",
+    "name": "Отдел 2",
+    "children": []
+  },
+  {
+    "id": 9,
+    "type": "department",
+    "name": "Отдел 7",
+    "children": []
+  },
+  {
+    "id": 11,
+    "type": "department",
+    "name": "Отдел 1",
+    "children": []
+  },
+  {
+    "id": 143,
+    "type": "ntc",
+    "name": "НТЦ 2",
+    "children": [10, 12, 14, 13, 15, 16, 17]
+  },
+  {
+    "id": 10,
+    "type": "management",
+    "name": "Управление 3",
+    "children": [22, 23, 24, 25, 26, 27, 28, 29, 30]
+  },
+  {
+    "id": 12,
+    "type": "management",
+    "name": "Управление 1",
+    "children": [35]
+  },
+  {
+    "id": 14,
+    "type": "management",
+    "name": "Управление 5",
+    "children": [41, 42, 43, 44, 45]
+  },
+  {
+    "id": 15,
+    "type": "management",
+    "name": "Управление 7",
+    "children": [78, 79]
+  },
+  {
+    "id": 16,
+    "type": "management",
+    "name": "Управление 8",
+    "children": []
+  },
+  {
+    "id": 17,
+    "type": "management",
+    "name": "Управление 10",
+    "children": [100, 101, 102]
+  },
+  {
+    "id": 22,
+    "type": "department",
+    "name": "Отдел 1",
+    "children": []
+  },
+  {
+    "id": 23,
+    "type": "department",
+    "name": "Отдел 2",
+    "children": []
+  },
+  {
+    "id": 24,
+    "type": "department",
+    "name": "Отдел 3",
+    "children": []
+  },
+  {
+    "id": 25,
+    "type": "department",
+    "name": "Отдел 4",
+    "children": []
+  },
+  {
+    "id": 26,
+    "type": "department",
+    "name": "Отдел 5",
+    "children": []
+  },
+  {
+    "id": 27,
+    "type": "department",
+    "name": "Отдел 6",
+    "children": []
+  },
+  {
+    "id": 28,
+    "type": "department",
+    "name": "Отдел 7",
+    "children": []
+  },
+  {
+    "id": 29,
+    "type": "department",
+    "name": "Отдел 8",
+    "children": []
+  },
+  {
+    "id": 30,
+    "type": "department",
+    "name": "Отдел 9",
+    "children": []
+  },
+  {
+    "id": 35,
+    "type": "department",
+    "name": "Отдел 10",
+    "children": []
+  },
+  {
+    "id": 41,
+    "type": "department",
+    "name": "Отдел 11",
+    "children": []
+  },
+  {
+    "id": 42,
+    "type": "department",
+    "name": "Отдел 12",
+    "children": []
+  },
+  {
+    "id": 43,
+    "type": "department",
+    "name": "Отдел 13",
+    "children": []
+  },
+  {
+    "id": 44,
+    "type": "department",
+    "name": "Отдел 14",
+    "children": []
+  },
+  {
+    "id": 45,
+    "type": "department",
+    "name": "Отдел 15",
+    "children": []
+  },
+  {
+    "id": 78,
+    "type": "department",
+    "name": "Отдел 16",
+    "children": []
+  },
+  {
+    "id": 79,
+    "type": "department",
+    "name": "Отдел 17",
+    "children": []
+  },
+  {
+    "id": 100,
+    "type": "department",
+    "name": "Отдел 18",
+    "children": []
+  },
+  {
+    "id": 101,
+    "type": "department",
+    "name": "Отдел 19",
+    "children": []
+  },
+  {
+    "id": 102,
+    "type": "department",
+    "name": "Отдел 20",
+    "children": []
+  }
+]
